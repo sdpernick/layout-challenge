@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*space means nested*/
+.box .inner-wrapper {
+	border: 1px solid black;
+	background-color: #f3f3f3;
+	width: 100%;
+	height: 100%;
+}
+
+header, footer {
+	height: 100px;
+}
+
+header {
+	padding-bottom: 20px;
+}
+
+.main {
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.leftcol {
+float: left;
+width: 20%;
+padding-right: 20px;
+}
+
+
+.rightcol {
+float: right;
+width: 20%;
+padding-left: 20px;
+}
+
+section {
+	height: 400px;
+    width: 60%;
+    float: left;
+}
+
+aside {
+	height: 400px;
+}
+
+footer {
+	clear: both;
+}
+

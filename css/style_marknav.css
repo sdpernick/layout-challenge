@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*space means nested*/
+.box .inner-wrapper {
+	border: 1px solid black;
+	background-color: #f3f3f3;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.top {
+	width: 20%;	
+padding-right: 10px;
+height: 100px;
+float: left;
+display: inline-block;
+}
+
+.littles {
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.little1 {
+width: 15%;
+padding-right: 10px;
+padding-left: 100px;
+height: 50px;
+float: left;
+display: inline-block;
+}
+
+.little2 {
+width: 15%;
+padding: 10px;
+height: 50px;
+display: inline-block;
+}
+
+.little3 {
+width: 15%;
+padding: 10px;
+height: 50px;
+display: inline-block;
+}
+
+.little4 {
+width: 15%;
+padding-left: 10px;
+height: 50px;
+float: right;
+display: inline-block;
+}
+
+.main {
+	padding-bottom: 20px;
+width: 100%;
+height: 400px;
+}
+
+
+.tiles {
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.tile1 {
+width: 33%;
+padding-right: 15px;
+height: 200px;
+float: left;
+display: inline-block;
+}
+
+.tile2 {
+width: 33%;
+height: 200px;
+overflow: auto;
+display: inline-block;
+}
+
+.tile3 {
+width: 33%;
+padding-left: 15px;
+height: 200px;
+float: right;
+display: inline-block;
+}
+
+
+footer {
+	clear: both;
+	height: 100px;
+}
+
